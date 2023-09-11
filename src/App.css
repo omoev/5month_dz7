@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.activeMenu {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 100%;
+  background: gray;
+  padding: 20px;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.hiddenMenu {
+  position: absolute;
+  left: -100%;
+  top: 50px;
+  width: 100%;
+  background: gray;
+  padding: 20px;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
